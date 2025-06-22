@@ -24,14 +24,6 @@ public class GarageImpl implements Garage{
         return false;
     }
 
-    private boolean existRegNumber(String regNumber){
-        for (Car car : cars) {
-            if (car == null) return false;
-            if (car.getRegNumber() == regNumber) return true;
-        }
-        return false;
-    }
-
     @Override
     public Car removeCar(String regNumber) {
         Car removeCar;
