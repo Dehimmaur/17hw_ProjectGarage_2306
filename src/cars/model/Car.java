@@ -17,16 +17,6 @@ public class Car {
         this.engine = engine;
         this.color = color;
     }
-/*
-    public Car(String company, String model, double engine, String color, String regNumber) {
-        this.company = company;
-        this.model = model;
-        this.engine = engine;
-        this.color = color;
-        this.regNumber = regNumber;
-    }
-
- */
 
     public String getRegNumber() {
         return regNumber;
