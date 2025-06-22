@@ -9,8 +9,8 @@ import org.junit.jupiter.api.Test;
 import static org.junit.jupiter.api.Assertions.*;
 
 class GarageTest {
-    Garage garage;
-    Car[] myGarage;
+    private Garage garage;
+    private Car[] myGarage;
 
     @BeforeEach
     void setUp() {
